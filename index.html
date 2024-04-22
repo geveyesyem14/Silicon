@@ -1,645 +1,998 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-    <meta charset="utf-8">
-    <title>Silicon | CodeGama</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <title>Silicon | Landing Page</title>
+  <link rel="stylesheet" href="global.css" />
+  <link rel="stylesheet" href="index.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" />
+</head>
 
-    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" href="assets/favicon/favicon.ico">
-    <link rel="stylesheet" media="screen" href="assets/vendor/boxicons/css/boxicons.min.css">
-    <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
-    <link rel="stylesheet" media="screen" href="assets/vendor/lightgallery/css/lightgallery-bundle.min.css">
-    <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
-
-    <script src="assets/js/theme-switcher.js"></script>
-  </head>
-
-  <body>
-    <main class="page-wrapper">
-      <header class="header navbar navbar-expand-lg navbar-dark position-absolute navbar-sticky">
-        <div class="container px-3">
-          <a href="index.html" class="navbar-brand pe-3">
-            <img draggable="false" src="assets/img/logo.svg" width="47" alt="Silicon"> Silicon
-          </a>
-          <div id="navbarNav" class="offcanvas offcanvas-end bg-dark">
-            <div class="offcanvas-header border-bottom border-light">
-              <h5 class="offcanvas-title text-white">Menu</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item dropdown">
-                  <a href="javascript:void(0);" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" aria-current="page">Landings</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a href="javascript:void(0);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a href="javascript:void(0);" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Account</a>
-                </li>
-                <li class="nav-item">
-                  <a href="javascript:void(0);" class="nav-link">UI Kit</a>
-                </li>
-              </ul>
-            </div>
-            <div class="offcanvas-header border-top border-light">
-              <a href="javascript:void(0);" class="btn btn-primary w-100" rel="noopener">
-                <i class="bx bx-cart fs-4 lh-1 me-1"></i>
-                &nbsp;Buy now
-              </a>
-            </div>
-          </div>
-          <div class="pe-lg-1 ms-auto me-4" data-bs-theme="dark">
-            <div class="form-check form-switch mode-switch" data-bs-toggle="mode">
-              <input type="checkbox" class="form-check-input" id="theme-mode">
-              <label class="form-check-label d-none d-sm-block" for="theme-mode">Light</label>
-              <label class="form-check-label d-none d-sm-block" for="theme-mode">Dark</label>
-            </div>
-          </div>
-          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <a href="javascript:void(0);" class="btn btn-primary btn-sm fs-sm rounded d-none d-lg-inline-flex" rel="noopener">
-            <i class="bx bx-cart fs-5 lh-1 me-1"></i>
-            &nbsp;Buy now
-          </a>
-        </div>
-      </header>
-
-      <section class="bg-dark bg-size-cover bg-repeat-0 bg-position-center position-relative overflow-hidden py-5 mb-4" style="background-image: url(assets/img/landing/saas-3/hero/hero-bg.jpg);" data-bs-theme="dark">
-        <div class="container position-relative zindex-2 pt-5 pb-md-2 pb-lg-4 pb-xl-5">
-          <div class="row pt-3 pb-2 py-md-4">
-            <div class="col-xl-5 col-md-6 pt-lg-5 text-center text-md-start mb-4 mb-md-0">
-              <h1 class="display-3 pb-2 pb-sm-3">Make Your Life Even Easier with Crypto Bank</h1>
-              <p class="text-body fs-lg d-md-none d-xl-block pb-2 pb-md-0 mb-4 mb-md-5">Odio venenatis a, non egestas ut ultrices ultrices quis orci ipsum eu tellus tempor sed amet mauris pellentesque ut vitae.</p>
-              <div class="d-flex justify-content-center justify-content-md-start pb-2 pt-lg-2 pt-xl-0">
-                <a href="javascript:void(0);" class="btn btn-lg btn-primary shadow-primary me-3 me-sm-4">Start trial now</a>
-                <a href="javascript:void(0);" class="btn btn-lg btn-outline-secondary">Contact us</a>
-              </div>
-              <div class="d-flex align-items-center justify-content-center justify-content-md-start text-start pt-4 pt-lg-5 mt-xxl-5">
-                <div class="d-flex me-3">
-                  <div class="d-flex align-items-center justify-content-center bg-light rounded-circle" style="width: 52px; height: 52px;">
-                    <img draggable="false" src="assets/img/avatar/14.jpg" class="rounded-circle" width="48" alt="Avatar">
-                  </div>
-                  <div class="d-flex align-items-center justify-content-center bg-light rounded-circle ms-n3" style="width: 52px; height: 52px;">
-                    <img draggable="false" src="assets/img/avatar/08.jpg" class="rounded-circle" width="48" alt="Avatar">
-                  </div>
-                  <div class="d-flex align-items-center justify-content-center bg-light rounded-circle ms-n3" style="width: 52px; height: 52px;">
-                    <img draggable="false" src="assets/img/avatar/15.jpg" class="rounded-circle" width="48" alt="Avatar">
+<body>
+  <div class="frame">
+    <div class="main-parent">
+      <div class="main">
+        <div class="section">
+          <div class="divcontainer">
+            <div class="divrow">
+              <div class="divcol-xl-5">
+                <div class="heading-1">
+                  <div class="make-your-life-container">
+                    <p class="make-your-life">Make Your Life</p>
+                    <p class="make-your-life">Even Easier with</p>
+                    <p class="make-your-life">Crypto Bank</p>
                   </div>
                 </div>
-                <div class="text-light"><strong>400k+</strong> users already with us</div>
-              </div>
-            </div>
-            <div class="col-xl-7 col-md-6 d-md-flex justify-content-end">
-              <div class="parallax mx-auto ms-md-0 me-md-n5" style="max-width: 675px;">
-                <div class="parallax-layer zindex-2" data-depth="0.1">
-                  <img draggable="false" src="assets/img/landing/saas-3/hero/layer01.png" alt="Card">
+                <div class="ptext-body">
+                  <div class="odio-venenatis-a-container">
+                    <p class="make-your-life">
+                      Odio venenatis a, non egestas ut ultrices ultrices quis
+                      orci
+                    </p>
+                    <p class="make-your-life">
+                      ipsum eu tellus tempor sed amet mauris pellentesque ut
+                      vitae.
+                    </p>
+                  </div>
                 </div>
-                <div class="parallax-layer zindex-3" data-depth="0.25">
-                  <img draggable="false" src="assets/img/landing/saas-3/hero/layer02.png" alt="Bubble">
+                <div class="divd-flex">
+                  <div class="linkmargin">
+                    <div class="link">
+                      <div class="start-trial-now">Start trial now</div>
+                    </div>
+                  </div>
+                  <div class="link1">
+                    <div class="start-trial-now">Contact us</div>
+                  </div>
                 </div>
-                <div class="parallax-layer" data-depth="-0.15">
-                  <img draggable="false" src="assets/img/landing/saas-3/hero/layer03.png" alt="Bubble">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-
-      <!-- Brands (carousel on screens < 1100px) -->
-      <section class="container border-bottom-lg pt-sm-2">
-        <div class="swiper mx-n2" data-swiper-options='{
-          "slidesPerView": 2,
-          "pagination": {
-            "el": ".swiper-pagination",
-            "clickable": true
-          },
-          "breakpoints": {
-            "500": {
-              "slidesPerView": 3,
-              "spaceBetween": 8
-            },
-            "650": {
-              "slidesPerView": 4,
-              "spaceBetween": 8
-            },
-            "850": {
-              "slidesPerView": 5,
-              "spaceBetween": 8
-            },
-            "992": {
-              "slidesPerView": 6,
-              "spaceBetween": 8
-            }
-          }
-        }'>
-          <div class="swiper-wrapper">
-            <div class="swiper-slide py-2">
-              <a href="javascript:void(0);" class="px-2 mx-2">
-                <img draggable="false" src="assets/img/brands/01.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-              </a>
-            </div>
-            <div class="swiper-slide py-2">
-              <a href="javascript:void(0);" class="px-2 mx-2">
-                <img draggable="false" src="assets/img/brands/02.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-              </a>
-            </div>
-            <div class="swiper-slide py-2">
-              <a href="javascript:void(0);" class="px-2 mx-2">
-                <img draggable="false" src="assets/img/brands/03.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-              </a>
-            </div>
-            <div class="swiper-slide py-2">
-              <a href="javascript:void(0);" class="px-2 mx-2">
-                <img draggable="false" src="assets/img/brands/04.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-              </a>
-            </div>
-            <div class="swiper-slide py-2">
-              <a href="javascript:void(0);" class="px-2 mx-2">
-                <img draggable="false" src="assets/img/brands/05.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-              </a>
-            </div>
-            <div class="swiper-slide py-2">
-              <a href="javascript:void(0);" class="px-2 mx-2">
-                <img draggable="false" src="assets/img/brands/06.svg" class="d-block mx-auto my-2" width="155" alt="Brand">
-              </a>
-            </div>
-          </div>
-          <div class="swiper-pagination position-relative pt-3"></div>
-        </div>
-      </section>
-
-      <section class="container py-5 my-md-2 my-lg-4 my-xl-5">
-        <h2 class="h1 text-center mx-auto mt-n2 mt-sm-0 pt-md-2" style="max-width: 530px;">Get Possibilities for Better Trading with Silicon</h2>
-        <ul class="list-unstyled d-flex flex-wrap justify-content-center mb-5">
-          <li class="d-flex fs-xl mx-3 mt-2 mt-sm-3">
-            <i class="bx bx-check lead text-primary mt-1 me-2"></i>
-            <span>Spend with the Crypto and get up to <strong class="text-primary ms-1">12% back</strong></span>
-          </li>
-          <li class="d-flex fs-xl mx-3 mt-2 mt-sm-3">
-            <i class="bx bx-check lead text-primary mt-1 me-2"></i>
-            <span>Invite friends and get <strong class="text-primary ms-1">new opportunities</strong></span>
-          </li>
-          <li class="d-flex fs-xl mx-3 mt-2 mt-sm-3">
-            <i class="bx bx-check lead text-primary mt-1 me-2"></i>
-            <span>Trade and earn <strong class="text-primary mx-1">200+ cryptocurrencies</strong> and get a permanent <strong class="text-primary ms-1">5% discount</strong></span>
-          </li>
-        </ul>
-        <div class="position-relative px-4 px-sm-5 mb-3 mb-md-4">
-          <img draggable="false" src="assets/img/landing/saas-3/feature-1/main.png" width="1079" class="d-block mx-auto" style="border-radius: 1.5rem; box-shadow: 0 1.875rem 7.5rem -.625rem rgba(124,125,152, .2);" alt="Dashboard">
-          <div class="position-absolute w-100" style="left: 0; bottom: 13%; padding-right: 74.33%;">
-            <img draggable="false" src="assets/img/landing/saas-3/feature-1/popup01.png" width="308" class="rellax d-block" style=" border-radius: .75rem; box-shadow: 0 .75rem 3.75rem -.625rem rgba(124,125,152, .2);" alt="Popup" data-rellax-percentage="0.5" data-rellax-speed="1" data-disable-parallax-down="lg">
-          </div>
-          <div class="position-absolute w-100" style="right: 0; top: 12%; padding-left: 74.16%;">
-            <img draggable="false" src="assets/img/landing/saas-3/feature-1/popup02.png" width="310" class="rellax d-block" style="border-radius: .75rem; box-shadow: -.46875rem 2.25rem 6.5rem 0 rgba(126,123,160, .2);" alt="Popup" data-rellax-percentage="0.5" data-rellax-speed="1" data-disable-parallax-down="lg">
-          </div>
-          <div class="position-absolute w-100" style="right: 0; bottom: 9.4%; padding-left: 64.83%; padding-right: 5.5%;">
-            <img draggable="false" src="assets/img/landing/saas-3/feature-1/popup03.png" width="322" class="rellax d-block ms-auto" style="border-radius: .75rem; box-shadow: -.46875rem 2.25rem 6.5rem 0 rgba(120,118,148, .14);" alt="Popup" data-rellax-percentage="0.5" data-rellax-speed=".5" data-disable-parallax-down="lg">
-          </div>
-        </div>
-      </section>
-
-      <section class="container pb-5 mb-md-2 mb-lg-4 mb-xl-5">
-        <div class="row align-items-center pt-2 pb-3">
-          <div class="col-md-6 col-xl-5 text-center text-md-start mb-5 mb-md-0">
-            <h2 class="h1 pb-2 pb-lg-3">Explore Opportunities with Silicon App</h2>
-            <p class="pb-2 mb-4 mb-lg-5">In blandit luctus proin mauris a commodo, dolor diam tempus, aenean magna fusce eu. Id porttitor aliquam eget aliquet sagittis eu aut diam ut phasellus sed convallis iaculis neque ultricies convallis sed enim.</p>
-            <hr>
-            <div class="d-flex justify-content-center justify-content-md-between pt-4 pt-lg-5">
-              <div class="mx-3 mx-md-0">
-                <div class="display-3 text-dark mb-1">23%</div>
-                <span>Nulla venenatis everys</span>
-              </div>
-              <div class="mx-3 mx-md-0">
-                <div class="display-3 text-dark mb-1">132b</div>
-                <span>Dictum in marko elementum</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6 offset-xl-1">
-            <div class="ratio ratio-1x1 mx-auto" style="max-width: 550px;">
-              <div class="parallax-layer position-absolute zindex-2" data-depth="-0.15">
-                <img draggable="false" src="assets/img/landing/saas-3/feature-2/avatars.png" alt="Avatar">
-              </div>
-              <div class="parallax-layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100" data-depth="0.1">
-                <div class="rounded-circle bg-primary" style="width: 70%; height: 70%; opacity: .06;"></div>
-              </div>
-              <div class="parallax-layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100" data-depth="0.2">
-                <div class="rounded-circle bg-primary" style="width: 55%; height: 55%; opacity: .06;"></div>
-              </div>
-              <div class="parallax-layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100 zindex-3" data-depth="0.4">
-                <div class="d-flex justify-content-center align-items-center rounded-circle bg-primary" style="width: 93px; height: 93px; box-shadow: 0 .1875rem 1.875rem -.125rem rgba(99,102,241, .95); ">
-                  <span class="h5 text-light mb-0">400K+</span>
-                </div>
-              </div>
-              <div class="parallax-layer d-flex justify-content-center align-items-center position-absolute top-0 start-0 w-100 h-100" data-depth="0.3">
-                <div class="rounded-circle bg-primary" style="width: 40%; height: 40%; opacity: .06;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="container pt-2 pt-sm-4 pb-5 mb-md-2 mb-lg-4 mb-xl-5">
-        <div class="row align-items-center mb-2 pb-sm-3 pb-md-4">
-          <div class="col-md-5 col-lg-6 col-xl-5 offset-xl-1 order-md-2 text-center text-md-start mb-5 mb-md-0">
-            <h2 class="h1 pb-2 pb-lg-3">Make Your Life a lot Easier with Crypto Bank</h2>
-            <p class="pb-2 mb-4 mb-xl-5">Sociis sit risus id. Sit facilisis dolor fermentum vestibulum arcuulvi maecenas maecenas pharet tincidunt sollicitudin in pellentesque vitae.</p>
-            <hr>
-            <div class="d-flex flex-wrap flex-sm-nowrap justify-content-center justify-content-md-between pt-3">
-              <img draggable="false" src="assets/img/landing/saas-3/feature-3/binance.svg" width="48" class="d-block m-2 mx-md-0" alt="Bitcoin">
-              <img draggable="false" src="assets/img/landing/saas-3/feature-3/ens.svg" width="48" class="d-block m-2 mx-md-0" alt="Ens">
-              <img draggable="false" src="assets/img/landing/saas-3/feature-3/tether.svg" width="48" class="d-block m-2 mx-md-0" alt="Tether">
-              <img draggable="false" src="assets/img/landing/saas-3/feature-3/alqo.svg" width="48" class="d-block m-2 mx-md-0" alt="Alqo">
-              <img draggable="false" src="assets/img/landing/saas-3/feature-3/blockfi.svg" width="48" class="d-block m-2 mx-md-0" alt="BlockFi">
-              <img draggable="false" src="assets/img/landing/saas-3/feature-3/bitcoin.svg" width="48" class="d-block m-2 mx-md-0" alt="Bitcoin">
-            </div>
-          </div>
-          <div class="col-md-7 col-lg-6 order-md-1">
-            <div class="position-relative pt-5" style="max-width: 636px;">
-              <img draggable="false" src="assets/img/landing/saas-3/feature-3/popup.png" class="rellax position-absolute top-0 mt-n5" alt="Card" data-rellax-percentage="0.5" data-rellax-speed="1" data-disable-parallax-down="lg">
-              <img draggable="false" src="assets/img/landing/saas-3/feature-3/dashboard.jpg" class="d-block rounded-3 mt-sm-4 mt-md-0 mt-lg-4" alt="Dashboard" style="box-shadow: 0 1.875rem 7.5rem -.625rem rgba(124,125,152, .2);">
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="container">
-        <div class="text-center pb-4 pb-md-0 mb-2 mb-md-5 mx-auto" style="max-width: 530px;">
-          <h2 class="h1">How Does It Work?</h2>
-          <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat mollis egestas nam luctus facilisis ultrices</p>
-        </div>
-        <div class="steps steps-sm steps-horizontal-md steps-center pb-5 mb-md-2 mb-lg-3">
-          <div class="step">
-            <div class="step-number">
-              <div class="step-number-inner">1</div>
-            </div>
-            <div class="step-body">
-              <h3 class="h4 mb-3">Registration </h3>
-              <p class="mb-0">Massa enim libero dictumst consectetur in convallis lobortis</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-number">
-              <div class="step-number-inner">2</div>
-            </div>
-            <div class="step-body">
-              <h3 class="h4 mb-3">Identity verification</h3>
-              <p class="mb-0">At ultricies id non quisque integer eget velit. Facilisis enim</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-number">
-              <div class="step-number-inner">3</div>
-            </div>
-            <div class="step-body">
-              <h3 class="h4 mb-3">Start trading</h3>
-              <p class="mb-0">Pellentesque rhoncus viverra vestibulum, purus purus</p>
-            </div>
-          </div>
-          <div class="step">
-            <div class="step-number">
-              <div class="step-number-inner">4</div>
-            </div>
-            <div class="step-body">
-              <h3 class="h4 mb-3">Earn with Silicon</h3>
-              <p class="mb-0">Massa enim libero dictumst consectetur in convallis lobortis</p>
-            </div>
-          </div>
-        </div>
-        <div class="bg-secondary position-relative rounded-3 overflow-hidden px-4 px-sm-5">
-          <div class="position-absolute top-50 start-50 w-75 h-75 translate-middle d-flex align-items-center justify-content-center zindex-5">
-            <a href="https://www.youtube.com" class="btn btn-video btn-icon btn-xl bg-white stretched-link" data-bs-toggle="video" aria-label="Play video">
-              <i class="bx bx-play"></i>
-            </a>
-          </div>
-          <div class="pt-4 mt-sm-3 px-3 px-sm-5 mx-md-5">
-            <img draggable="false" src="assets/img/landing/saas-3/video-cover.png" width="786" class="rellax d-block mx-auto mt-lg-4" alt="Card" data-rellax-percentage="0.5" data-rellax-speed="1.1" data-disable-parallax-down="lg">
-          </div>
-        </div>
-      </section>
-
-      <section class="container py-5 mb-2 mt-sm-2 my-md-4 my-lg-5">
-        <div class="row pt-2 py-xl-3">
-          <div class="col-lg-3 col-md-4">
-            <h2 class="h1 text-center text-md-start mx-auto mx-md-0 pt-md-2" style="max-width: 300px;">What Our <br class="d-none d-md-inline">Clients Say <br class="d-none d-md-inline">About Us:</h2>
-            <div class="d-flex justify-content-center justify-content-md-start pb-4 mb-2 pt-2 pt-md-4 mt-md-5">
-              <button type="button" id="prev-testimonial" class="btn btn-prev btn-icon btn-sm me-2" aria-label="Previous">
-                <i class="bx bx-chevron-left"></i>
-              </button>
-              <button type="button" id="next-testimonial" class="btn btn-next btn-icon btn-sm ms-2" aria-label="Next">
-                <i class="bx bx-chevron-right"></i>
-              </button>
-            </div>
-          </div>
-          <div class="col-lg-9 col-md-8">
-            <div class="swiper mx-n2" data-swiper-options='{
-              "slidesPerView": 1,
-              "spaceBetween": 8,
-              "loop": true,
-              "navigation": {
-                "prevEl": "#prev-testimonial",
-                "nextEl": "#next-testimonial"
-              },
-              "breakpoints": {
-                "500": {
-                  "slidesPerView": 2
-                },
-                "1000": {
-                  "slidesPerView": 2
-                },
-                "1200": {
-                  "slidesPerView": 3
-                }
-              }
-            }'>
-              <div class="swiper-wrapper">
-                <div class="swiper-slide h-auto pt-4">
-                  <figure class="d-flex flex-column h-100 px-2 px-sm-0 mb-0 mx-2">
-                    <div class="card h-100 position-relative border-0 shadow-sm pt-4">
-                      <span class="btn btn-icon btn-primary shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4">
-                        <i class="bx bxs-quote-left"></i>
-                      </span>
-                      <blockquote class="card-body pb-3 mb-0">
-                        <p class="mb-0">This app has completely transformed the way I approach my finances. It's packed with useful features and it's helped me stay on top of my finances and reach my financial goals.</p>
-                      </blockquote>
-                      <div class="card-footer border-0 text-nowrap pt-0">
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
+                <div class="divd-flex1">
+                  <div class="divd-flexmargin">
+                    <div class="item">
+                      <div class="divd-flex3">
+                        <img class="jpg-icon" alt="Image" draggable="false" src="./public/14jpg@2x.png" />
+                      </div>
+                      <div class="divd-flexmargin1">
+                        <div class="divd-flex4">
+                          <img class="jpg-icon" alt="Image" draggable="false" src="./public/08jpg@2x.png" />
+                        </div>
+                      </div>
+                      <div class="divd-flexmargin1">
+                        <div class="divd-flex4">
+                          <img class="jpg-icon" alt="Image" draggable="false" src="./public/15jpg@2x.png" />
+                        </div>
                       </div>
                     </div>
-                    <figcaption class="d-flex align-items-center ps-4 pt-4">
-                      <img draggable="false" src="assets/img/avatar/40.jpg" width="48" class="rounded-circle" alt="Jenny Wilson">
-                      <div class="ps-3">
-                        <h6 class="fs-sm fw-semibold mb-0">Jenny Wilson</h6>
-                        <span class="fs-xs text-muted">Founder of Lorem Company</span>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </div>
-                <div class="swiper-slide h-auto pt-4">
-                  <figure class="d-flex flex-column h-100 px-2 px-sm-0 mb-0 mx-2">
-                    <div class="card h-100 position-relative border-0 shadow-sm pt-4">
-                      <span class="btn btn-icon btn-primary shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4">
-                        <i class="bx bxs-quote-left"></i>
-                      </span>
-                      <blockquote class="card-body pb-3 mb-0">
-                        <p class="mb-0">I absolutely love using this app! It's user-friendly interface makes it incredibly easy to track my spending and budget accordingly. I highly recommend it to anyone looking to improve their financial management skills.</p>
-                      </blockquote>
-                      <div class="card-footer border-0 text-nowrap pt-0">
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bx-star text-muted opacity-75"></i>
-                      </div>
+                  </div>
+                  <div class="divtext-light">
+                    <div class="strong-400k-container">
+                      <span class="k">400k+</span>
+                      <span> users already with us</span>
                     </div>
-                    <figcaption class="d-flex align-items-center ps-4 pt-4">
-                      <img draggable="false" src="assets/img/avatar/06.jpg" width="48" class="rounded-circle" alt="Wade Warren">
-                      <div class="ps-3">
-                        <h6 class="fs-sm fw-semibold mb-0">Wade Warren</h6>
-                        <span class="fs-xs text-muted">CEO of Ipsum Company</span>
-                      </div>
-                    </figcaption>
-                  </figure>
+                  </div>
                 </div>
-                <div class="swiper-slide h-auto pt-4">
-                  <figure class="d-flex flex-column h-100 px-2 px-sm-0 mb-0 mx-2">
-                    <div class="card h-100 position-relative border-0 shadow-sm pt-4">
-                      <span class="btn btn-icon btn-primary shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4">
-                        <i class="bx bxs-quote-left"></i>
-                      </span>
-                      <blockquote class="card-body pb-3 mb-0">
-                        <p class="mb-0">I've tried many different apps, but this one stands out as the best. Its intuitive interface, helpful tools, and insightful reports have made it an essential tool for managing my money.</p>
-                      </blockquote>
-                      <div class="card-footer border-0 text-nowrap pt-0">
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                      </div>
-                    </div>
-                    <figcaption class="d-flex align-items-center ps-4 pt-4">
-                      <img draggable="false" src="assets/img/avatar/41.jpg" width="48" class="rounded-circle" alt="Ralph Edwards">
-                      <div class="ps-3">
-                        <h6 class="fs-sm fw-semibold mb-0">Ralph Edwards</h6>
-                        <span class="fs-xs text-muted">Founder of the Agency</span>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </div>
-                <div class="swiper-slide h-auto pt-4">
-                  <figure class="d-flex flex-column h-100 px-2 px-sm-0 mb-0 mx-2">
-                    <div class="card h-100 position-relative border-0 shadow-sm pt-4">
-                      <span class="btn btn-icon btn-primary shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4">
-                        <i class="bx bxs-quote-left"></i>
-                      </span>
-                      <blockquote class="card-body pb-3 mb-0">
-                        <p class="mb-0">This app has completely transformed the way I approach my finances. It's packed with useful features and it's helped me stay on top of my finances and reach my financial goals.</p>
-                      </blockquote>
-                      <div class="card-footer border-0 text-nowrap pt-0">
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bx-star text-muted opacity-75"></i>
-                      </div>
-                    </div>
-                    <figcaption class="d-flex align-items-center ps-4 pt-4">
-                      <img draggable="false" src="assets/img/avatar/40.jpg" width="48" class="rounded-circle" alt="Jenny Wilson">
-                      <div class="ps-3">
-                        <h6 class="fs-sm fw-semibold mb-0">Jenny Wilson</h6>
-                        <span class="fs-xs text-muted">Founder of Lorem Company</span>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </div>
-                <div class="swiper-slide h-auto pt-4">
-                  <figure class="d-flex flex-column h-100 px-2 px-sm-0 mb-0 mx-2">
-                    <div class="card h-100 position-relative border-0 shadow-sm pt-4">
-                      <span class="btn btn-icon btn-primary shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4">
-                        <i class="bx bxs-quote-left"></i>
-                      </span>
-                      <blockquote class="card-body pb-3 mb-0">
-                        <p class="mb-0">I absolutely love using this app! It's user-friendly interface makes it incredibly easy to track my spending and budget accordingly. I highly recommend it to anyone looking to improve their financial management skills.</p>
-                      </blockquote>
-                      <div class="card-footer border-0 text-nowrap pt-0">
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                      </div>
-                    </div>
-                    <figcaption class="d-flex align-items-center ps-4 pt-4">
-                      <img draggable="false" src="assets/img/avatar/06.jpg" width="48" class="rounded-circle" alt="Wade Warren">
-                      <div class="ps-3">
-                        <h6 class="fs-sm fw-semibold mb-0">Wade Warren</h6>
-                        <span class="fs-xs text-muted">CEO of Ipsum Company</span>
-                      </div>
-                    </figcaption>
-                  </figure>
-                </div>
-                <div class="swiper-slide h-auto pt-4">
-                  <figure class="d-flex flex-column h-100 px-2 px-sm-0 mb-0 mx-2">
-                    <div class="card h-100 position-relative border-0 shadow-sm pt-4">
-                      <span class="btn btn-icon btn-primary shadow-primary pe-none position-absolute top-0 start-0 translate-middle-y ms-4">
-                        <i class="bx bxs-quote-left"></i>
-                      </span>
-                      <blockquote class="card-body pb-3 mb-0">
-                        <p class="mb-0">I've tried many different apps, but this one stands out as the best. Its intuitive interface, helpful tools, and insightful reports have made it an essential tool for managing my money.</p>
-                      </blockquote>
-                      <div class="card-footer border-0 text-nowrap pt-0">
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bxs-star text-warning"></i>
-                        <i class="bx bx-star text-muted opacity-75"></i>
-                      </div>
-                    </div>
-                    <figcaption class="d-flex align-items-center ps-4 pt-4">
-                      <img draggable="false" src="assets/img/avatar/41.jpg" width="48" class="rounded-circle" alt="Ralph Edwards">
-                      <div class="ps-3">
-                        <h6 class="fs-sm fw-semibold mb-0">Ralph Edwards</h6>
-                        <span class="fs-xs text-muted">Founder of the Agency</span>
-                      </div>
-                    </figcaption>
-                  </figure>
+              </div>
+              <div class="divcol-xl-7">
+                <div class="divparallax">
+                  <div class="divparallax-layer">
+                    <img class="layer03png-icon" alt="Image" draggable="false" src="./public/layer03png@2x.png" />
+                  </div>
+                  <div class="divparallax-layer1">
+                    <img class="layer03png-icon" alt="Image" draggable="false" src="./public/layer01png@2x.png" />
+                  </div>
+                  <div class="divparallax-layer2">
+                    <img class="layer03png-icon" alt="Image" draggable="false" src="./public/layer02png@2x.png" />
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
+        <div class="section1">
+          <div class="divswiper">
+            <div class="divswiper-wrapper-bb4ba592735">
+              <div class="group-1-6margin">
+                <div class="group-1-6">
+                  <div class="link2">
+                    <div class="svg">
+                      <div class="svg-fill">
+                        <img class="svg-icon" alt="Image" draggable="false" src="./public/01svg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-1-6margin">
+                <div class="group-1-6">
+                  <div class="link2">
+                    <div class="svg">
+                      <div class="svg-fill">
+                        <div class="svg-icon">
+                          <img class="vector-icon" alt="Image" draggable="false" src="./public/vector.svg" />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-1-6margin">
+                <div class="group-1-6">
+                  <div class="link2">
+                    <div class="svg">
+                      <div class="svg-fill">
+                        <img class="svg-icon" alt="Image" draggable="false" src="./public/03svg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-1-6margin">
+                <div class="group-1-6">
+                  <div class="link2">
+                    <div class="svg">
+                      <div class="svg-fill">
+                        <img class="svg-icon" alt="Image" draggable="false" src="./public/04svg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-1-6margin">
+                <div class="group-1-6">
+                  <div class="link2">
+                    <div class="svg">
+                      <div class="svg-fill">
+                        <img class="svg-icon" alt="Image" draggable="false" src="./public/05svg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="group-1-6margin">
+                <div class="group-1-6">
+                  <div class="link2">
+                    <div class="svg">
+                      <div class="svg-fill">
+                        <img class="svg-icon" alt="Image" draggable="false" src="./public/06svg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section2">
+          <div class="heading-2">
+            <div class="get-possibilities-for-container">
+              <p class="make-your-life">Get Possibilities for Better</p>
+              <p class="make-your-life">Trading with Silicon</p>
+            </div>
+          </div>
+          <div class="list">
+            <div class="itemmargin">
+              <div class="item">
+                <div class="ibx-checkmargin">
+                  <div class="before">
+                    <img class="icon" alt="Image" draggable="false" src="./public/icon.svg" />
+                  </div>
+                </div>
+                <div class="span">
+                  <div class="spend-with-the">
+                    Spend with the Crypto and get up to 
+                  </div>
+                  <div class="strong-new">12% back</div>
+                </div>
+              </div>
+            </div>
+            <div class="itemmargin1">
+              <div class="item">
+                <div class="ibx-checkmargin">
+                  <div class="before">
+                    <img class="icon" alt="Image" draggable="false" src="./public/icon.svg" />
+                  </div>
+                </div>
+                <div class="span">
+                  <div class="spend-with-the">Invite friends and get </div>
+                  <div class="strong-new">new opportunities</div>
+                </div>
+              </div>
+            </div>
+            <div class="itemmargin2">
+              <div class="item">
+                <div class="ibx-checkmargin">
+                  <div class="before">
+                    <img class="icon" alt="Image" draggable="false" src="./public/icon.svg" />
+                  </div>
+                </div>
+                <div class="span">
+                  <div class="spend-with-the">Trade and earn </div>
+                  <div class="strong-new">200+ cryptocurrencies</div>
+                  <div class="spend-with-the">and get a permanent </div>
+                  <div class="strong-new">5% discount</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divposition-relative">
+            <img class="mainpng-icon" alt="Image" draggable="false" src="./public/mainpng@2x.png" />
 
-      <section class="container">
-        <div class="bg-dark bg-size-cover bg-position-center bg-repeat-0 position-relative overflow-hidden rounded-3 py-lg-3 py-xl-5 px-4 px-lg-5 px-xl-0" style="background-image: url(assets/img/landing/saas-3/cta-bg.jpg);" data-bs-theme="dark">
-          <div class="row position-relative zindex-2 py-5 my-1 my-md-3">
-            <div class="col-md-6">
-              <div class="mx-auto" style="max-width: 440px;">
-                <h2 class="h1 pb-1 pb-md-3 pb-lg-4">Let's start your investing easier now!</h2>
-                <ul class="list-unstyled fs-lg d-md-none pb-3">
-                  <li class="d-flex text-body mb-2">
-                    <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
-                    Purus vestibulum pharetra amet tincidunt pretium
-                  </li>
-                  <li class="d-flex text-body mb-2">
-                    <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
-                    Haretra justo magna pharetra dui gravida sed nec
-                  </li>
-                  <li class="d-flex text-body">
-                    <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
-                    Venenatis risus faucibus volutpat amet feugiat a
-                  </li>
-                </ul>
-                <a href="javascript:void(0);" class="btn btn-lg btn-primary shadow-primary w-100 w-sm-auto">Start trial now</a>
-              </div>
+            <div class="divposition-absolute">
+              <img class="popup01png-icon" alt="Image" draggable="false" src="./public/popup01png@2x.png" />
             </div>
-            <div class="col-md-6 pt-lg-3 pt-xl-4">
-              <ul class="list-unstyled fs-lg d-none d-md-block">
-                <li class="d-flex text-body mb-2">
-                  <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
-                  Purus vestibulum pharetra amet tincidunt pretium
-                </li>
-                <li class="d-flex text-body mb-2">
-                  <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
-                  Haretra justo magna pharetra dui gravida sed nec
-                </li>
-                <li class="d-flex text-body">
-                  <i class="bx bx-check lead text-primary me-2" style="margin-top: .125rem;"></i>
-                  Venenatis risus faucibus volutpat amet feugiat a
-                </li>
-              </ul>
+            <div class="divposition-absolute1">
+              <img class="popup02png-icon" alt="Image" draggable="false" src="./public/popup02png@2x.png" />
+            </div>
+            <div class="divposition-absolute2">
+              <img class="popup03png-icon" alt="Image" draggable="false" src="./public/popup03png@2x.png" />
             </div>
           </div>
         </div>
-      </section>
-    </main>
+        <div class="section3">
+          <div class="divrow1">
+            <div class="divcol-md-6">
+              <div class="heading-21">
+                <div class="get-possibilities-for-container">
+                  <p class="make-your-life">Explore Opportunities</p>
+                  <p class="make-your-life">with Silicon App</p>
+                </div>
+              </div>
+              <div class="ppb-2">
+                <div class="strong-400k-container">
+                  <p class="make-your-life">
+                    In blandit luctus proin mauris a commodo, dolor diam
+                    tempus, aenean
+                  </p>
+                  <p class="make-your-life">
+                    magna fusce eu. Id porttitor aliquam eget aliquet sagittis
+                    eu aut diam ut
+                  </p>
+                  <p class="make-your-life">
+                    phasellus sed convallis iaculis neque ultricies convallis
+                    sed enim.
+                  </p>
+                </div>
+              </div>
+              <div class="separator"></div>
+              <div class="divd-flex6">
+                <div class="divmx-3">
+                  <div class="make-your-life-container">23%</div>
+                  <div class="nulla-venenatis-everys">
+                    Nulla venenatis everys
+                  </div>
+                </div>
+                <div class="divmx-3">
+                  <div class="make-your-life-container">132b</div>
+                  <div class="nulla-venenatis-everys">
+                    Dictum in marko elementum
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divcol-md-6margin">
+              <div class="divcol-md-61">
+                <div class="divparallax1">
+                  <div class="divparallax-layer3">
+                    <div class="divrounded-circle"></div>
+                  </div>
+                  <div class="divparallax-layer4">
+                    <div class="divrounded-circle1"></div>
+                  </div>
+                  <div class="divparallax-layer5">
+                    <div class="divrounded-circle2"></div>
+                  </div>
+                  <div class="divparallax-layer6">
+                    <img class="avatarspng-icon" alt="Image" draggable="false" src="./public/avatarspng@2x.png" />
+                  </div>
+                  <div class="divparallax-layer7">
+                    <div class="divd-flex7">
+                      <div class="before">
+                        <div class="k1">400K+</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section4">
+          <div class="divrow2">
+            <div class="divcol-md-7">
+              <div class="divposition-relative1">
+                <img class="dashboardjpg-icon" alt="Image" draggable="false" src="./public/dashboardjpg@2x.png" />
 
-    <footer class="footer pt-5 pb-4 pb-lg-5">
-      <div class="container pt-lg-4">
-        <div class="row pb-5">
-          <div class="col-lg-4 col-md-6">
-            <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-              <img draggable="false" src="assets/img/logo.svg" width="47" alt="Silicon"> Silicon
+                <img class="popuppng-icon" alt="Image" draggable="false" src="./public/popuppng@2x.png" />
+              </div>
             </div>
-            <p class="fs-sm pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.</p>
-            <form class="needs-validation" novalidate>
-              <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>
-              <div class="input-group">
-                <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Your email" required>
-                <i class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
-                <div class="invalid-tooltip position-absolute top-100 start-0">Please provide a valid email address.</div>
-                <button type="submit" class="btn btn-primary">Subscribe</button>
-              </div>
-            </form>
-          </div>
-          <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
-            <div id="footer-links" class="row">
-              <div class="col-lg-4">
-                <h6 class="mb-2">
-                  <a href="#useful-links" class="d-block text-dark d-lg-none py-2">Useful Links</a>
-                </h6>
-                <div id="useful-links" class="d-lg-block">
-                  <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Home</a></li>
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Features</a></li>
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Integrations</a></li>
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Our Clients</a></li>
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Blog</a></li>
-                  </ul>
-                  <ul class="nav flex-column mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>
-                  </ul>
+            <div class="divcol-md-5margin">
+              <div class="divcol-md-5">
+                <div class="heading-21">
+                  <div class="get-possibilities-for-container">
+                    <p class="make-your-life">Make Your Life a lot Easier</p>
+                    <p class="make-your-life">with Crypto Bank</p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-xl-4 col-lg-3">
-                <h6 class="mb-2">
-                  <a href="#social-links" class="d-block text-dark d-lg-none py-2">Socials</a>
-                </h6>
-                <div id="social-links" class="d-lg-block">
-                  <ul class="nav flex-column mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
-                    <li class="nav-item"><a href="javascript:void(0);" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
-                  </ul>
+                <div class="ppb-2">
+                  <div class="strong-400k-container">
+                    <p class="make-your-life">
+                      Sociis sit risus id. Sit facilisis dolor fermentum
+                      vestibulum arcuulvi
+                    </p>
+                    <p class="make-your-life">
+                      maecenas maecenas pharet tincidunt sollicitudin in
+                      pellentesque vitae.
+                    </p>
+                  </div>
                 </div>
-              </div>
-              <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
-                <h6 class="mb-2">Contact Us</h6>
-                <a href="mailto:email@example.com" class="fw-medium">email@example.com</a>
+                <div class="separator1"></div>
+                <div class="divd-flex8">
+                  <div class="imgmargin">
+                    <div class="binancesvg">
+                      <div class="binancesvg-fill">
+                        <img class="binancesvg-icon" alt="Image" draggable="false" src="./public/binancesvg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imgmargin">
+                    <div class="binancesvg">
+                      <div class="binancesvg-fill">
+                        <img class="binancesvg-icon" alt="Image" draggable="false" src="./public/enssvg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imgmargin">
+                    <div class="binancesvg">
+                      <div class="binancesvg-fill">
+                        <img class="binancesvg-icon" alt="Image" draggable="false" src="./public/tethersvg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imgmargin">
+                    <div class="binancesvg">
+                      <div class="binancesvg-fill">
+                        <img class="binancesvg-icon" alt="Image" draggable="false" src="./public/alqosvg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imgmargin">
+                    <div class="binancesvg">
+                      <div class="binancesvg-fill">
+                        <img class="binancesvg-icon" alt="Image" draggable="false" src="./public/blockfisvg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imgmargin">
+                    <div class="binancesvg">
+                      <div class="binancesvg-fill">
+                        <img class="binancesvg-icon" alt="Image" draggable="false" src="./public/bitcoinsvg.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
-          &copy; All rights reserved. Made by 
-          <a class="nav-link d-inline-block p-0" href="javascript:void(0);" rel="noopener">Coderthemes</a>
-        </p>
+        <div class="section5">
+          <div class="divtext-center">
+            <div class="heading-23">
+              <div class="how-does-it">How Does It Work?</div>
+            </div>
+            <div class="pmb-0">
+              <div class="lorem-ipsum-dolor-container">
+                <p class="make-your-life">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit
+                  volutpat mollis
+                </p>
+                <p class="make-your-life">
+                  egestas nam luctus facilisis ultrices
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="divsteps">
+            <div class="divstep">
+              <div class="divstep-number">
+                <div class="divstep-number-inner">
+                  <div class="div1">1</div>
+                </div>
+              </div>
+              <div class="after"></div>
+              <div class="divstep-body">
+                <div class="heading-3">
+                  <div class="registration">Registration</div>
+                </div>
+                <div class="pmb-01">
+                  <div class="lorem-ipsum-dolor-container">
+                    <p class="make-your-life">Massa enim libero dictumst</p>
+                    <p class="make-your-life">
+                      consectetur in convallis lobortis
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divstep">
+              <div class="divstep-number1">
+                <div class="divstep-number-inner1">
+                  <div class="div1">2</div>
+                </div>
+              </div>
+              <div class="after1"></div>
+              <div class="before3"></div>
+              <div class="divstep-body">
+                <div class="heading-31">
+                  <div class="registration">Identity verification</div>
+                </div>
+                <div class="pmb-02">
+                  <div class="lorem-ipsum-dolor-container">
+                    <p class="make-your-life">
+                      At ultricies id non quisque integer eget
+                    </p>
+                    <p class="make-your-life">velit. Facilisis enim</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divstep">
+              <div class="divstep-number1">
+                <div class="divstep-number-inner2">
+                  <div class="div1">3</div>
+                </div>
+              </div>
+              <div class="after1"></div>
+              <div class="before3"></div>
+              <div class="divstep-body">
+                <div class="heading-32">
+                  <div class="registration">Start trading</div>
+                </div>
+                <div class="pmb-03">
+                  <div class="lorem-ipsum-dolor-container">
+                    <p class="make-your-life">Pellentesque rhoncus viverra</p>
+                    <p class="make-your-life">vestibulum, purus purus</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divstep">
+              <div class="divstep-number">
+                <div class="divstep-number-inner3">
+                  <div class="div1">4</div>
+                </div>
+              </div>
+              <div class="before3"></div>
+              <div class="divstep-body">
+                <div class="heading-33">
+                  <div class="registration">Earn with Silicon</div>
+                </div>
+                <div class="pmb-01">
+                  <div class="lorem-ipsum-dolor-container">
+                    <p class="make-your-life">Massa enim libero dictumst</p>
+                    <p class="make-your-life">
+                      consectetur in convallis lobortis
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="divbg-secondary">
+            <div class="divpt-4">
+              <img class="video-coverpng-icon" alt="Image" draggable="false" src="./public/videocoverpng@2x.png" />
+            </div>
+            <div class="divposition-absolute3">
+              <div class="link-play-video">
+                <div class="ibx-play">
+                  <div class="item">
+                    <img class="icon3" alt="Image" draggable="false" src="./public/icon1.svg" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section6">
+          <div class="divrow3">
+            <div class="divcol-lg-3">
+              <div class="heading-24">
+                <div class="how-does-it">
+                  <p class="make-your-life">What Our</p>
+                  <p class="make-your-life">Clients Say</p>
+                  <p class="make-your-life">About Us:</p>
+                </div>
+              </div>
+              <div class="divd-flex9">
+                <div class="button-previous-slidemargin">
+                  <div class="button-previous-slide">
+                    <div class="ibx-play">
+                      <div class="item">
+                        <img class="icon4" alt="Image" draggable="false" src="./public/icon2.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="button-next-slidemargin">
+                  <div class="button-previous-slide">
+                    <div class="ibx-play">
+                      <div class="item">
+                        <img class="icon4" alt="Image" draggable="false" src="./public/icon3.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divcol-lg-9">
+              <div class="divswiper1">
+                <div class="divswiper-wrapper-bd47d93bcfd">
+                  <div class="group-1-4margin">
+                    <div class="group-1-4">
+                      <div class="figure">
+                        <div class="divcard">
+                          <div class="blockquote">
+                            <div class="pmb-05">
+                              <div class="lorem-ipsum-dolor-container">
+                                <p class="make-your-life">
+                                  Id mollis consectetur congue
+                                </p>
+                                <p class="make-your-life">
+                                  egestas egestas suspendisse
+                                </p>
+                                <p class="make-your-life">
+                                  blandit justo. Tellus augue
+                                </p>
+                                <p class="make-your-life">
+                                  commodo id quis tempus etiam
+                                </p>
+                                <p class="make-your-life">
+                                  pulvinar at maecenas.
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="divcard-footermargin">
+                            <div class="divcard-footer">
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="before12">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon5.svg" />
+                              </div>
+                              <div class="before12">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon5.svg" />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="spanbtn">
+                            <div class="ibx-play">
+                              <div class="item">
+                                <img class="icon4" alt="Image" draggable="false" src="./public/icon6.svg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="figcaption">
+                          <img class="jpg-icon3" alt="Image" draggable="false" src="./public/40jpg@2x.png" />
+
+                          <div class="divps-3">
+                            <div class="heading-6">
+                              <b class="robert-fox">Jenny Wilson</b>
+                            </div>
+                            <div class="founder-of-lorem">
+                              Founder of Lorem Company
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group-1-4margin">
+                    <div class="group-1-4">
+                      <div class="figure">
+                        <div class="divcard">
+                          <div class="blockquote">
+                            <div class="pmb-05">
+                              <div class="lorem-ipsum-dolor-container">
+                                <p class="make-your-life">
+                                  Phasellus luctus nisi id orci
+                                </p>
+                                <p class="make-your-life">
+                                  condimentum, at cursus nisl
+                                </p>
+                                <p class="make-your-life">
+                                  vestibulum. Orci varius natoque
+                                </p>
+                                <p class="make-your-life">
+                                  penatibus et magnis dis parturient
+                                </p>
+                                <p class="make-your-life">montes commodo.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="divcard-footermargin">
+                            <div class="divcard-footer">
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="spanbtn">
+                            <div class="ibx-play">
+                              <div class="item">
+                                <img class="icon4" alt="Image" draggable="false" src="./public/icon6.svg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="figcaption">
+                          <img class="jpg-icon3" alt="Image" draggable="false" src="./public/06jpg@2x.png" />
+
+                          <div class="divps-3">
+                            <div class="heading-6">
+                              <b class="robert-fox">Annette Black</b>
+                            </div>
+                            <div class="founder-of-lorem">
+                              CEO of Ipsum Company
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="group-1-4margin">
+                    <div class="group-1-4">
+                      <div class="figure">
+                        <div class="divcard">
+                          <div class="blockquote2">
+                            <div class="pmb-05">
+                              <div class="lorem-ipsum-dolor-container">
+                                <p class="make-your-life">
+                                  Lorem ipsum dolor sit amet,
+                                </p>
+                                <p class="make-your-life">
+                                  consectetur adipiscing elit. Mauris
+                                </p>
+                                <p class="make-your-life">
+                                  ipsum odio, bibendum ornare mi at,
+                                </p>
+                                <p class="make-your-life">efficitur urna.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="divcard-footermargin">
+                            <div class="divcard-footer">
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="item">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon4.svg" />
+                              </div>
+                              <div class="before12">
+                                <img class="icon6" alt="Image" draggable="false" src="./public/icon5.svg" />
+                              </div>
+                            </div>
+                          </div>
+                          <div class="spanbtn">
+                            <div class="ibx-play">
+                              <div class="item">
+                                <img class="icon4" alt="Image" draggable="false" src="./public/icon6.svg" />
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="figcaption">
+                          <img class="jpg-icon3" alt="Image" draggable="false" src="./public/41jpg@2x.png" />
+
+                          <div class="divps-3">
+                            <div class="heading-6">
+                              <b class="robert-fox">Jerome Bell</b>
+                            </div>
+                            <div class="founder-of-lorem">
+                              Founder of the Agency
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section7">
+          <div class="divbg-dark">
+            <div class="divrow4">
+              <div class="divcol-md-62">
+                <div class="divmx-auto">
+                  <div class="heading-25">
+                    <div class="how-does-it">
+                      <p class="make-your-life">Let's start your</p>
+                      <p class="make-your-life">investing easier now!</p>
+                    </div>
+                  </div>
+                  <div class="link8">
+                    <div class="start-trial-now">Start trial now</div>
+                  </div>
+                </div>
+              </div>
+              <div class="divcol-md-63">
+                <div class="list1">
+                  <div class="item3">
+                    <div class="ibx-checkmargin3">
+                      <div class="before">
+                        <img class="icon" alt="Image" draggable="false" src="./public/icon.svg" />
+                      </div>
+                    </div>
+                    <div class="odio-venenatis-a-container">
+                      Purus vestibulum pharetra amet tincidunt pretium
+                    </div>
+                  </div>
+                  <div class="item3">
+                    <div class="ibx-checkmargin3">
+                      <div class="before">
+                        <img class="icon" alt="Image" draggable="false" src="./public/icon.svg" />
+                      </div>
+                    </div>
+                    <div class="odio-venenatis-a-container">
+                      Haretra justo magna pharetra dui gravida sed nec
+                    </div>
+                  </div>
+                  <div class="item3">
+                    <div class="ibx-checkmargin3">
+                      <div class="before">
+                        <img class="icon" alt="Image" draggable="false" src="./public/icon.svg" />
+                      </div>
+                    </div>
+                    <div class="odio-venenatis-a-container">
+                      Venenatis risus faucibus volutpat amet feugiat a
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="header">
+          <div class="divcontainer1">
+            <div class="linkmargin1">
+              <div class="link9">
+                <div class="imgmargin6">
+                  <div class="logosvg">
+                    <div class="logosvg-fill">
+                      <img class="logosvg-icon" alt="Image" draggable="false" src="./public/logosvg.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="silicon">Silicon</div>
+              </div>
+            </div>
+            <div class="divnavbarnav">
+              <div class="list2">
+                <div class="item6">
+                  <div class="link10">
+                    <div class="start-trial-now">UI Kit</div>
+                  </div>
+                </div>
+                <div class="item7">
+                  <div class="link10">
+                    <div class="start-trial-now">Docs</div>
+                  </div>
+                </div>
+                <div class="item8">
+                  <div class="list2">
+                    <div class="landings">Landings</div>
+                    <div class="aftermargin">
+                      <div class="before">
+                        <img class="icon27" alt="Image" draggable="false" src="./public/icon7.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item9">
+                  <div class="list2">
+                    <div class="pages">Pages</div>
+                    <div class="aftermargin1">
+                      <div class="before">
+                        <img class="icon27" alt="Image" draggable="false" src="./public/icon8.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="item10">
+                  <div class="list2">
+                    <div class="account">Account</div>
+                    <div class="aftermargin2">
+                      <div class="before">
+                        <img class="icon27" alt="Image" draggable="false" src="./public/icon8.svg" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divpe-lg-1margin">
+              <div class="divpe-lg-1">
+                <div class="divform-check">
+                  <div class="labelmargin">
+                    <div class="label-light">Light</div>
+                  </div>
+                  <div class="input">
+                    <div class="image-fill">
+                      <img class="image-icon" alt="Image" draggable="false" src="./public/image.svg" />
+                    </div>
+                  </div>
+                  <div class="labelmargin1">
+                    <div class="label-dark">Dark</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="link15">
+              <div class="ibx-cartmargin">
+                <div class="ibx-play">
+                  <div class="item">
+                    <img class="icon4" alt="Image" draggable="false" src="./public/icon9.svg" />
+                  </div>
+                </div>
+              </div>
+              <div class="buy-now"> Buy now</div>
+            </div>
+          </div>
+        </div>
       </div>
-    </footer>
-
-    <a href="#top" title="Goto Top" class="btn-scroll-top" data-scroll>
-      <i class="btn-scroll-top-icon bx bx-chevron-up"></i>
-    </a>
-
-    <script src="assets/vendor/parallax-js/dist/parallax.min.js"></script>
-    <script src="assets/vendor/rellax/rellax.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/lightgallery/lightgallery.min.js"></script>
-    <script src="assets/vendor/lightgallery/plugins/video/lg-video.min.js"></script>
-    <script src="assets/js/theme.min.js"></script>
-  </body>
+      <div class="footer">
+        <div class="divcontainer2">
+          <div class="divrow5">
+            <div class="divcol-lg-4">
+              <div class="divnavbar-brand">
+                <div class="imgmargin7">
+                  <div class="logosvg1">
+                    <div class="logosvg-fill">
+                      <img class="logosvg-icon" alt="Image" draggable="false" src="./public/logosvg.svg" />
+                    </div>
+                  </div>
+                </div>
+                <div class="silicon1">Silicon</div>
+              </div>
+              <div class="pfs-sm">
+                <div class="proin-ipsum-pharetra-container">
+                  <p class="make-your-life">
+                    Proin ipsum pharetra, senectus eget scelerisque varius
+                    pretium
+                  </p>
+                  <p class="make-your-life">
+                    platea velit. Lacus, eget eu vitae nullam proin turpis
+                    etiam mi sit.
+                  </p>
+                  <p class="make-your-life">
+                    Non feugiat feugiat egestas nulla nec. Arcu tempus, eget
+                  </p>
+                  <p class="make-your-life">
+                    elementum dolor ullamcorper sodales ultrices eros.
+                  </p>
+                </div>
+              </div>
+              <div class="form">
+                <div class="label-subscribe">Subscribe to our newsletter</div>
+                <div class="divinput-group">
+                  <div class="input1">
+                    <div class="divplaceholder">
+                      <div class="your-email">Your email</div>
+                    </div>
+                  </div>
+                  <div class="buttonmargin">
+                    <div class="button">
+                      <div class="label-subscribe">Subscribe</div>
+                    </div>
+                  </div>
+                  <div class="ibx-envelope">
+                    <div class="item">
+                      <img class="icon31" alt="Image" draggable="false" src="./public/icon10.svg" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="divcol-xl-6margin">
+              <div class="divfooter-links">
+                <div class="divcol-lg-41">
+                  <div class="divuseful-links">
+                    <div class="list3">
+                      <div class="item11">
+                        <div class="link-home">Home</div>
+                      </div>
+                      <div class="item11">
+                        <div class="link-home">Features</div>
+                      </div>
+                      <div class="item11">
+                        <div class="link-home">Integrations</div>
+                      </div>
+                      <div class="item11">
+                        <div class="link-home">Our Clients</div>
+                      </div>
+                      <div class="item11">
+                        <div class="link-home">Blog</div>
+                      </div>
+                    </div>
+                    <div class="heading-6">
+                      <div class="item11">
+                        <div class="link-home">Terms & Conditions</div>
+                      </div>
+                      <div class="item11">
+                        <div class="link-home">Privacy Policy</div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="divcol-xl-4">
+                  <div class="heading-6">
+                    <div class="item11">
+                      <div class="link-home">Facebook</div>
+                    </div>
+                    <div class="item11">
+                      <div class="link-home">LinkedIn</div>
+                    </div>
+                    <div class="item11">
+                      <div class="link-home">Twitter</div>
+                    </div>
+                    <div class="item11">
+                      <div class="link-home">Instagram</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="divcol-xl-41">
+                  <div class="heading-6">
+                    <div class="contact-us1">Contact Us</div>
+                  </div>
+                  <div class="link-emailexamplecom">email@example.com</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="pnav">
+            <div class="all-rights-reserved-container">
+              <span>© All rights reserved. Made by </span>
+              <span class="createx-studio">Coderthemes</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="link16">
+      <div class="before">
+        <div class="item">
+          <img class="icon" alt="Image" draggable="false" src="./public/icon11.svg" />
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
 
 </html>
